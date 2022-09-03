@@ -1,19 +1,40 @@
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+<!--
+  Title: Dicee App AutoLayout
+  Description: iOS App of dicee app, made using SWIFT
+  Author: Adrien CHABAUD
+ -->
+ 
+ <img src="/images/Adrien_banner_01.png">
+ 
+ 
+ # Dice Roll - Auto Layout ![iOS Badge](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white) ![Swift Badge](https://img.shields.io/badge/Swift%20Version-5-orange) 
 
-# Auto Layout 
+This app has been made as part of the **iOS & Swift - The Complete iOS App Development Bootcamp** on Udemy from **The App Brewery**
 
-## Our Goal
+## Table of contents
+* [Goal behind](#goal-behind)
+* [General Info](#general-info)
+* [Learning](#learning-tool)
+* [Technologies](#technologies)
 
-At the moment, our app only looks good on the canvas dimension that we’ve selected. If you run the app on screens with different aspect ratios or try to turn it to landscape, the designs will look broken. 
+## Goal Behind
 
-Auto Layout allows us to set rules as to how we want our views to be displayed. Because mobile screens have different resolutions and sizes, we need these rules to tell the iPhone/iPad how it should layout all the elements in the storyboard onto the display. These rules allow our UI elements to be resized and positioned so that no matter which screen they are displayed on, they always look as the designer intended.
+The objective here was to being able to run the app on screens with different aspect ratios without the design being broken. By using Auto Layout allowing to set rules as how we want the view to be displayed. 
+
+These rules allow the UI elements to be resized and positioned so that no matter which screen they are displayed on, they always look as the designer intended.
+
+## General Info
+
+This app is a Las Vegas dice app, the same made in another repository. You can make the die roll at the press of a button.
+
+<p align="center">
+  <img src="/images/screenshot_1.png" width=300 hspace=20><img src="/images/screenshot_2.png" width=300 hspace=20>
+</p>
 
 
-## What you will create
+## Learning Tool
 
-Although Dicee is already pretty dicey, we get into problems when we try to rotate the screen to landscape or if we have a screen size that is not the same as the canvas. In this module, we’ll learn how to fix this and make our apps look exactly the way we want.
-
-## What you will learn
+As a learning tool, the conception of this app allowed me to do/learn the following:
 
 * How to add constraints and understanding how Auto Layout works.
 * How to Pin and Align elements.
@@ -22,10 +43,13 @@ Although Dicee is already pretty dicey, we get into problems when we try to rota
 * Understanding what Xcode needs in order to correctly layout a design.
 * How to use Stack Views to create complex interfaces.
 
+## Technologies
 
+This project uses:
+* *Xcode: 13.4.1*
+* *Swift: 5.6.1*
 
-
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](Documentation/readme-end-banner.png)
+<p align="center">
+  <img src="Documentation/readme-end-banner.png">
+</p>
 
